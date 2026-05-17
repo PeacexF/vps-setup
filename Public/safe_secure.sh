@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This is a safe(has break logic if something fails) hardenind script to configure a vps
+# This is a safe(has break logic if something fails) hardening script to configure a vps
 # Does:
 # SSH
 # Password auth - no
