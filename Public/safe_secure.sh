@@ -1,5 +1,12 @@
-```bash
-#!/bin/bash
+#!/usr/bin/env bash
+
+# This is a safe(has break logic if something fails) hardenind script to configure a vps
+# Does:
+# SSH
+# Password auth - no
+# UFW
+# Fail2ban
+
 
 set -e
 
@@ -121,4 +128,3 @@ echo " SSH порт: $SSH_PORT"
 echo " Пользователь: $NEW_USER"
 echo " Root вход: отключён"
 echo "======================================"
-```
